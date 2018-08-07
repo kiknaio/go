@@ -3,12 +3,17 @@ package main
 import (
 	"net/http"
 	"io/ioutil"
-	"fmt"
+	"log"
 )
 
 func main()  {
 	res, _ := http.Get("https://kikna.io")
 	page, _ := ioutil.ReadAll(res.Body)
 	res.Body.Close()
-	fmt.Printf("%s", page)
+
+	err := ioutil.WriteFile("index.html", page, 777)
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }
