@@ -11,7 +11,7 @@ func zero(z *int)  {
 
 func main() {
 	x := 5
-	// & finds the memory address. Where it is stored
+//	// & finds the memory address. Where it is stored
 	zero(&x)
 	println(x) // 0
 }
