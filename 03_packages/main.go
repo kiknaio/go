@@ -1,7 +1,7 @@
 package main
 
 import (
-	"hello/03_packages/utils"
+	"zero_to_hero/03_packages/utils"
 	"fmt"
 )
 
