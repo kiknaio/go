@@ -14,6 +14,7 @@ func test() {
 	fmt.Println("Test")
 }
 
+// Defer will run after everything is done inside of the main
 func main()  {
 	defer world()
 	test()
