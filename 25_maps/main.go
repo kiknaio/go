@@ -14,6 +14,9 @@ func main()  {
 		"Math01":	"Mathematics for beginners",
 	}
 
+	// Delete Math course from the schedule
+	delete(courses, "Math01")
+
 	students["George"] = 23
 	students["Tata"] = 22
 
