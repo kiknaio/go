@@ -20,6 +20,7 @@ func main()  {
 	fido := dog{animal{"woof"}, true}
 	fifi := cat{animal{"meow"}, true}
 	shadow := dog{animal{"woof"}, true}
+	// It means this slice can accept any type
 	critters := []interface{}{fido, fifi, shadow}
 	fmt.Println(critters)
 }
