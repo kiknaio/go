@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="080b0e9f-9fa7-4e0b-90f7-3af6cb8a41b7" name="Default Changelist" comment="" />
+    <list default="true" id="080b0e9f-9fa7-4e0b-90f7-3af6cb8a41b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,37 +52,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="1" />
+          <entry key="go" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="1" />
+          <entry key="Go" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="53" />
+          <entry key="go" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="53" />
+          <entry key="Go" value="198" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/27_hash_tables_and_maps/02_hash_dictionary/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/http2/client.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/33_conversion_vs_assertion/01_int_to_float/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/33_conversion_vs_assertion/02_float_to_int/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -195,6 +197,7 @@
         <option value="$PROJECT_DIR$/http2/client_request/main.go" />
         <option value="$PROJECT_DIR$/http2/server.go" />
         <option value="$PROJECT_DIR$/33_conversion_vs_assertion/01_int_to_float/main.go" />
+        <option value="$PROJECT_DIR$/33_conversion_vs_assertion/02_float_to_int/main.go" />
       </list>
     </option>
   </component>
@@ -262,22 +265,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/http2/client.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/27_hash_tables_and_maps/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -299,29 +293,40 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/33_conversion_vs_assertion/01_int_to_float/main.go" />
+      <package value="zero_to_hero" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_in_action/main.go" />
+      <filePath value="$PROJECT_DIR$/33_conversion_vs_assertion/02_float_to_int/main.go" />
+      <package value="zero_to_hero" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
       <item itemvalue="Go Build.go build client.go" />
+      <item itemvalue="Go Build.go build main.go (4)" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build client.go" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -329,19 +334,19 @@
     <frame x="379" y="154" width="1243" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25395504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25395504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14168714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3269494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4990942" visible="true" weight="0.32831737" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4990942" weight="0.32831737" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5009058" side_tool="true" weight="0.32901135" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -457,6 +462,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/33_conversion_vs_assertion/02_float_to_int/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
