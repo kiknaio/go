@@ -14,10 +14,13 @@ var mutex sync.Mutex
 func increment(s string)  {
 	for i := 0; i < 20; i++ {
 		time.Sleep(time.Duration(rand.Intn(20)) * time.Millisecond)
-		mutex.Lock()
-		counter++
-		fmt.Println(s, i, "Counter:", counter)
-		mutex.Unlock()
+		// Mutex lock
+		{
+			mutex.Lock()
+			counter++
+			fmt.Println(s, i, "Counter:", counter)
+			mutex.Unlock()
+		}
 	}
 	wg.Done()
 }
