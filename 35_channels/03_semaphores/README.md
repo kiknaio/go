@@ -1,0 +1,1 @@
+Semaphores are a very general synchronization mechanism that can be used to implement mutexes, limit access to multiple resources, solve the readers-writers problem, etc.
